@@ -1,0 +1,6 @@
+item,label_A,label_B,final_label,reason,resolved_on,resolved_by
+F022,No,Yes,No,"Rule 3 (partly supported): the passage lists co-located intensive and extensive poultry production as one of several higher-risk landscapes, but does not say it carries the highest risk.",2026-10-17,"annotators A and B, jointly"
+F028,No,Yes,No,"Rule 3 (partly supported): contact and close contact are stated, but respiratory droplet transmission is not stated and the oral-fecal route is only suggested as possible.",2026-10-18,"annotators A and B, jointly"
+F058,No,Yes,No,"Rule 1 (judge only the passage shown): the cited passage breaks off at 'is considered the', so the gold-standard claim is not in the evidence shown.",2026-10-17,"annotators A and B, jointly"
+F060,No,Yes,No,"Rule 3 (partly supported): the passage names five phases; 'peak' is described as the end of the acceleration phase, not as a separate phase.",2026-10-19,"annotators A and B, jointly"
+F081,Yes,No,Yes,Supported: the meaning of alert level 6 is stated explicitly; 'A/H11N' is a transcription slip for the passage's 'A/H1N1' and adds no unsupported claim.,2026-10-18,"annotators A and B, jointly"

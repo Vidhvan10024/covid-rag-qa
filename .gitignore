@@ -1,0 +1,23 @@
+# caches and downloads (large, recreated automatically)
+cache/
+data/
+*.npy
+*.npz
+hf_cache/
+
+# pilot, smoke-test and local runs (the paper's results are in results/)
+results_pilot*/
+results_smoke/
+results_local*/
+**/generations/
+*.partial
+annotation_sheets/
+configs/run.yaml
+
+# Python and notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper and this repository."
+title: "Does Better Retrieval Mean Better Answers? Code, model outputs and annotations"
+type: software
+version: 1.0.0
+date-released: "2026-10-20"
+license: MIT
+repository-code: "https://github.com/Vidhvan10024/covid-rag-qa"
+keywords:
+  - retrieval-augmented generation
+  - question answering
+  - retrieval evaluation
+  - large language models
+  - COVID-19
+  - digital libraries
+authors:
+  - family-names: Marolia
+    given-names: Mayurkumar
+    affiliation: "Department of Computer Science, Gujarat University, Ahmedabad, India"
+    orcid: "https://orcid.org/0000-0001-8294-7852"
+  - family-names: Joshi
+    given-names: Hardik
+    affiliation: "Department of Computer Science, Gujarat University, Ahmedabad, India"
+    orcid: "https://orcid.org/0000-0002-5431-0173"
+preferred-citation:
+  type: article
+  title: "Does Better Retrieval Mean Better Answers? Selecting Retrievers for Retrieval-Augmented Question Answering over a COVID-19 Scholarly Collection"
+  authors:
+    - family-names: Marolia
+      given-names: Mayurkumar
+    - family-names: Joshi
+      given-names: Hardik
+  journal: "International Journal on Digital Libraries"
+  year: 2026
+  notes: "Submitted"

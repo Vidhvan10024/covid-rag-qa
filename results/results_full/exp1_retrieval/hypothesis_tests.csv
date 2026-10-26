@@ -1,0 +1,4 @@
+hypothesis,A,B,nDCG@10 A,nDCG@10 B,Δ (B-A),p (Holm),outcome
+H1a: MedCPT > BGE,bge,medcpt,0.7792,0.6115,-0.1677,0.0006,"refuted (significant, opposite direction)"
+H1b: RRF(all) > best single retriever (BGE),bge,rrf(all),0.7792,0.8074,0.0282,0.2161,not supported (no significant difference)
+H1c: re-ranking improves RRF(all),rrf(all),rrf(all)>>CE,0.8074,0.758,-0.0495,0.054,not supported (no significant difference)

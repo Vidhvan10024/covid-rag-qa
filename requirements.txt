@@ -1,0 +1,20 @@
+# Experiments (GPU). Versions used in the paper are listed in README.md and results/*/environment.txt
+torch>=2.2
+transformers>=4.44
+accelerate>=0.33
+bitsandbytes>=0.43
+datasets>=2.20
+huggingface_hub>=0.23
+bm25s>=0.2
+PyStemmer>=2.2
+ranx>=0.3.19
+
+# Analysis, statistics, tables and figures (CPU)
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+scikit-learn>=1.3
+pyyaml>=6.0
+matplotlib>=3.8
+tabulate>=0.9
+openpyxl>=3.1

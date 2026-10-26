@@ -1,0 +1,35 @@
+{
+  "title": "Does Better Retrieval Mean Better Answers? Code, model outputs and annotations",
+  "upload_type": "software",
+  "description": "Code, configurations, retrieval runs, model outputs and human annotations for the paper 'Does Better Retrieval Mean Better Answers? Selecting Retrievers for Retrieval-Augmented Question Answering over a COVID-19 Scholarly Collection'. The study compares five retrieval pipelines (BM25, BGE, MedCPT, reciprocal rank fusion, and fusion with cross-encoder re-ranking) on TREC-COVID and as the retrieval stage of retrieval-augmented question answering over COVID-QA with two open-weight readers (Qwen2.5-7B-Instruct, Llama-3.1-8B-Instruct).",
+  "creators": [
+    {
+      "name": "Marolia, Mayurkumar",
+      "affiliation": "Department of Computer Science, Gujarat University, Ahmedabad, India",
+      "orcid": "0000-0001-8294-7852"
+    },
+    {
+      "name": "Joshi, Hardik",
+      "affiliation": "Department of Computer Science, Gujarat University, Ahmedabad, India",
+      "orcid": "0000-0002-5431-0173"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jasani, Jaykumar",
+      "type": "DataCurator",
+      "affiliation": "Department of Physics, Government Science College, Chikhli, Gujarat, India"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "retrieval-augmented generation",
+    "question answering",
+    "retrieval evaluation",
+    "large language models",
+    "COVID-19",
+    "digital libraries"
+  ],
+  "version": "1.0.0",
+  "language": "eng"
+}
