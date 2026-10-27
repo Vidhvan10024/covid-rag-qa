@@ -1,5 +1,7 @@
 # Does Better Retrieval Mean Better Answers?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23684061.svg)](https://doi.org/10.5281/zenodo.23684061)
+
 Code, model outputs and annotations for the paper
 
 > Mayurkumar Marolia and Hardik Joshi. *Does Better Retrieval Mean Better Answers? Selecting Retrievers for Retrieval-Augmented Question Answering over a COVID-19 Scholarly Collection.* Submitted to the International Journal on Digital Libraries, 2026.
@@ -7,6 +9,10 @@ Code, model outputs and annotations for the paper
 We compare five retrieval pipelines (BM25, the general-domain dense retriever BGE, the biomedical dense retriever MedCPT, reciprocal rank fusion of all three, and fusion followed by cross-encoder re-ranking) in two settings: ad hoc retrieval on TREC-COVID, and as the retrieval stage of a question-answering system that answers the COVID-QA questions from the full set of 147 COVID-QA articles. Answers are written by two open-weight readers, Qwen2.5-7B-Instruct and Llama-3.1-8B-Instruct, both run in 4-bit on a single 16 GB GPU.
 
 The main finding is that the ranking of the pipelines on TREC-COVID tells you nothing about the quality of the answers they support (Kendall's τ = 0.00), whereas the share of questions for which a pipeline retrieves the answer-bearing passage predicts answer quality exactly (τ = 1.00, for both readers).
+
+Open the notebooks directly in Google Colab:
+[![Run the experiments](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Vidhvan10024/covid-rag-qa/blob/main/notebooks/01_run_experiments.ipynb) (GPU)
+[![Analysis and figures](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Vidhvan10024/covid-rag-qa/blob/main/notebooks/02_analysis_and_figures.ipynb) (no GPU)
 
 ## What is here
 
@@ -86,7 +92,7 @@ Colab updated its packages between the two runs. Retrieval results were identica
 
 ## Citation
 
-If you use this code or the annotations, please cite the paper (citation details will be added on publication) and this repository; see `CITATION.cff`. Archived release: [ZENODO DOI].
+If you use this code or the annotations, please cite the paper (citation details will be added on publication) and this repository; see `CITATION.cff`. Archived release: [https://doi.org/10.5281/zenodo.23684061](https://doi.org/10.5281/zenodo.23684061).
 
 ## Licence
 

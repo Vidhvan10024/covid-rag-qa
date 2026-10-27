@@ -5,6 +5,7 @@ type: software
 version: 1.0.0
 date-released: "2026-10-20"
 license: MIT
+doi: "10.5281/zenodo.23684061"
 repository-code: "https://github.com/Vidhvan10024/covid-rag-qa"
 keywords:
   - retrieval-augmented generation
